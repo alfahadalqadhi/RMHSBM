@@ -9,4 +9,4 @@ Run runsim.R and runsim_nocorr.R to create the simulation R files. Run Make_Mode
 You can reproduce plots 4-9 from the paper by running Make_Models.R, runsim18.R and runsim18_nocorr.R to creates the data files. Then run MakePlotData.R and CreatePlots.R; change line 68 in MakePlotData.R to for(simnum in c(18)){ .
 
 # For the BNU1 data analysis
-Run BNU1Analysis.R then BNU1plots.R .
+Run BNU1Analysis.R then BNU1plots.R  after downloading the data.
